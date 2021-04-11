@@ -1,0 +1,77 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Scott Gillis",
+  "classifications": [
+    "Sitecore",
+    "Template",
+    "C#",
+    "Web"
+  ],
+  "identity": "Sitecore.Helix.ModuleTemplate",
+  "name": "Sitecore.Helix.ModuleTemplate",
+  "description": "C# SDK style project, that provides the basic folder and file structure to support a Sitecore Helix Module within any layer.",
+  "shortName": "sc-helixmodule",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "preferNameDirectory": false,
+  "sourceName": "TEMP_FOLDER",
+  "symbols": {
+    "layer": {
+      "type": "parameter",
+      "datatype": "choice",
+      "defaultValue": "Feature",
+      "isRequired": false,
+      "replaces": "Layer",
+      "fileRename": "Layer",
+      "choices": [
+        {
+          "choice": "Feature",
+          "description": "Sets the namespace layer to be 'Feature'"
+        },
+        {
+          "choice": "Foundation",
+          "description": "Sets the namespace layer to be 'Foundation'"
+        },
+        {
+          "choice": "Project",
+          "description": "Sets the namespace layer to be 'Project'"
+        }
+      ]
+    },
+    "projectname":{
+      "type": "parameter",
+      "isRequired": true,
+      "fileRename": "TheCodeAttic",
+      "replaces": "TheCodeAttic",
+      "default": "New_PROJEcTNAME"
+    },
+    "modulename":{
+      "type": "parameter",
+      "isRequired": true,
+      "fileRename": "ModuleName",
+      "replaces": "ModuleName",
+      "default": "NEW_MODULENAME"
+    }
+  },
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "include": ["**/**"],
+          "exclude": [
+            "**/[Bb]in/**",
+            "**/[Oo]bj/**",
+            ".template.config/**/*",
+            "**/*.filelist",
+            "**/*.user",
+            "**/*.lock.json",
+            "**/SC10_1/**",
+            "**/SC9_3/**"
+          ]
+        }
+      ]
+    }
+  ]
+}

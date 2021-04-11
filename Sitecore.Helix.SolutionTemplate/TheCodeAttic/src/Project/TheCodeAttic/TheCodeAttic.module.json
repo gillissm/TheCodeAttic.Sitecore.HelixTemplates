@@ -1,0 +1,62 @@
+{
+    "namespace": "Project.TheCodeAttic",
+    "references": [
+        "Foundation.*",
+        "Feature.*",
+        "Project.Common"
+    ],
+    "items": {
+        "includes": [
+            {
+                "name": "Templates",
+                "path": "/sitecore/templates/Project/TheCodeAttic",
+                "database": "master"
+            },
+            {
+                "name": "Renderings",
+                "path": "/sitecore/layout/renderings/Project/TheCodeAttic",
+                "database": "master"
+            },
+            {
+                "name": "Layouts",
+                "path": "/sitecore/layout/layouts/Project/TheCodeAttic",
+                "database": "master"
+            },
+            {
+                "name": "PlaceholderSettings",
+                "path": "/sitecore/layout/placeholder settings/Project/TheCodeAttic",
+                "database": "master"
+            },
+            {
+                "name": "Models",
+                "path": "/sitecore/layout/models/Project/TheCodeAttic",
+                "database": "master"
+            },
+            {
+                "name": "Content",
+                "path": "/sitecore/content/TheCodeAttic",
+                "database": "master"
+            },
+            {
+                "name": "Media",
+                "path": "/sitecore/media library/Project/TheCodeAttic",
+                "database": "master"
+            },
+            {
+                "name": "Profiling",
+                "path": "/sitecore/system/Marketing Control Panel/Profiles/TheCodeAttic",
+                "database": "master"
+            },
+            {
+                "name": "Outcomes",
+                "path": "/sitecore/system/Marketing Control Panel/Outcomes/TheCodeAttic",
+                "database": "master"
+            },
+            {
+                "name": "Campaigns",
+                "path": "/sitecore/system/Marketing Control Panel/Campaigns/TheCodeAttic",
+                "database": "master"
+            }
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>TheCodeAttic.Sitecore.HelixTemplates</id>
+    <authors>Scott.Gillis</authors>
+    <version>0.0.0</version>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/gillissm/TheCodeAttic.Sitecore.HelixTemplates</projectUrl>
+    <repository type="git" url="https://github.com/gillissm/TheCodeAttic.Sitecore.HelixTemplates"  />
+    <!-- <iconUrl>http://icon_url_here_or_delete_this_line/</iconUrl> -->
+    <description>dotnet CLI templates for the setup and management of Visual Studio solutions and projects that adhere to the Sitecore Helix prinicpals.</description>
+    <releaseNotes>Visual Studio soltion and project module templates for Sitecore Helix</releaseNotes>
+    <copyright>2021 @ TheCodeAttic</copyright>
+    <tags>docker sitecore helix template dotnet</tags>
+    <packageTypes>
+        <packageType name="Template" />
+    </packageTypes>
+  </metadata>
+</package>

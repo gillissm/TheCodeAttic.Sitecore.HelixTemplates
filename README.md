@@ -1,2 +1,2 @@
-# TheCodeAttic.Sitecore.SlnTemplates
+# TheCodeAttic.Sitecore.HelixTemplates
 dotnet new template for Sitecore Helix solutions

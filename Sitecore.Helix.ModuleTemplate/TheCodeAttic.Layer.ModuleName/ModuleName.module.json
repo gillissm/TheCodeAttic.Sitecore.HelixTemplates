@@ -1,0 +1,30 @@
+{
+  "namespace": "Layer.ModuleName",
+  "references": [
+    "Foundation.*"
+  ],
+  "items": {
+    "includes": [
+      {
+        "name": "Templates",
+        "path": "/sitecore/templates/Layer/ModuleName",
+        "database": "master"
+      },
+      {
+        "name": "Renderings",
+        "path": "/sitecore/layout/renderings/Layer/ModuleName",
+        "database": "master"
+      },
+      {
+        "name": "Media",
+        "path": "/sitecore/media library/Layer/ModuleName",
+        "database": "master"
+      },
+      {
+        "name": "CustomExperienceButtons",
+        "path": "/sitecore/content/Applications/WebEdit/Custom Experience Buttons/Layer/ModuleName",
+        "database": "core"
+      }
+    ]
+  }
+}
