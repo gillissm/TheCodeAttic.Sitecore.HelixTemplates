@@ -23,7 +23,7 @@
       "replaces": "PUBLISH_PATH",
       "description": "Fully Qualified path to location source code should be built to, normally this is the src directory that containers are pointing at.",
       "defaultValue": "C:\\Code\thecodeattic\\docker\\src",
-      "isRequired": true
+      "isRequired": false
     }
   },
   "sources": [
