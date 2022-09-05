@@ -20,8 +20,8 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Sitecore.Kernel" Version="10.1.0" />
-        <PackageReference Include="Sitecore.Mvc" Version="10.1.0" />
+        <PackageReference Include="Sitecore.Kernel" Version="SITECORE_VERSION" />
+        <PackageReference Include="Sitecore.Mvc" Version="SITECORE_VERSION" />
     </ItemGroup>
 
 </Project>

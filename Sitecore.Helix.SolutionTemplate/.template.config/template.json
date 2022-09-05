@@ -24,7 +24,14 @@
       "description": "Fully Qualified path to location source code should be built to, normally this is the src directory that containers are pointing at.",
       "defaultValue": "C:\\Code\thecodeattic\\docker\\src",
       "isRequired": false
-    }
+    },
+    "sitecore-version":{
+      "type": "parameter",
+      "replaces": "SITECORE_VERSION",
+      "description": "Valid Sitecore Assembly version for NuGet. see https://sitecore.myget.org/gallery/sc-packages for full listing",
+      "defaultValue": "10.2.0",
+      "isRequired": false
+    }    
   },
   "sources": [
     {
