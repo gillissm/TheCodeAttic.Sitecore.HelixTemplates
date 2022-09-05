@@ -25,7 +25,7 @@
       "defaultValue": "C:\\Code\thecodeattic\\docker\\src",
       "isRequired": false
     },
-    "SITECORE_VERSION":{
+    "sitecore-version":{
       "type": "parameter",
       "replaces": "SITECORE_VERSION",
       "description": "Valid Sitecore Assembly version for NuGet. see https://sitecore.myget.org/gallery/sc-packages for full listing",

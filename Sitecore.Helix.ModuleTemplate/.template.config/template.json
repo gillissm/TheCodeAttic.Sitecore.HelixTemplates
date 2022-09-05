@@ -54,7 +54,7 @@
       "replaces": "ModuleName",
       "default": "NEW_MODULENAME"
     },
-    "SITECORE_VERSION":{
+    "sitecore_version":{
       "type": "parameter",
       "replaces": "SITECORE_VERSION",
       "description": "Valid Sitecore Assembly version for NuGet. see https://sitecore.myget.org/gallery/sc-packages for full listing",
