@@ -53,7 +53,14 @@
       "fileRename": "ModuleName",
       "replaces": "ModuleName",
       "default": "NEW_MODULENAME"
-    }
+    },
+    "SITECORE_VERSION":{
+      "type": "parameter",
+      "replaces": "SITECORE_VERSION",
+      "description": "Valid Sitecore Assembly version for NuGet. see https://sitecore.myget.org/gallery/sc-packages for full listing",
+      "defaultValue": "10.2.0",
+      "isRequired": false
+    }    
   },
   "sources": [
     {
